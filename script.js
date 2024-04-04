@@ -1,6 +1,23 @@
 // Scenario:
 // You're building an application for a music shop. They want a feature that 
 // recommends an song based on their current mood.
+console.log("check");
+
+let mood = "happy";
+console.log("mood");
+
+let recommendedSong
+console.log("recommendedSong");
+
+if (mood === "happy") {
+    recommendedSong = "Here Comes the Sun by The Beatles";
+}
+else if (mood === "sad") {
+    recommendedSong = "Someone Like You by Adele";
+}
+else {
+    recommendedSong = "Break My Soul by Beyonce";
+}
 
 // 1. Create a variable named mood.
 //  - Assign it a string value of "happy".
